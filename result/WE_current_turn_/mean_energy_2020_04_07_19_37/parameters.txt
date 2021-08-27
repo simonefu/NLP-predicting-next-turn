@@ -1,0 +1,2 @@
+test_size	val_size	SEED_train	SEED_val	subset_size	SEED_subset	features	feature_to_normalize
+0.1	0.1	12	1	0.5	10	['mean_energy', 'lexical_density', 'mean_F0', 'speech_rate', 'duration', 'DA_type', 'label', 'utt_processed', 'back', 'sta_op', 'oth']	['mean_energy', 'mean_F0']
