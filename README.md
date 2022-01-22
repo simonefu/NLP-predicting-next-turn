@@ -26,6 +26,8 @@ The use case was implemented for the Switchboard datatset.
 
 ## Usage example
 
+NB. The input variables architecture must be improved. I am considering to modify it using a configuration yml file to safely and correctly pass the input arguments.
+
 ### create_dataset_history.py
 
 It takes as input parameters the 
@@ -46,7 +48,8 @@ It searches for the best parameters for the RNN. The input variables are declare
 
 ### regr_history_no_WE.py
 
-It predicts the next turn acoustic prosodic target using a RNN architecture. The variables are 
+It predicts the next turn acoustic prosodic target using a RNN architecture.
 
+### regr_history_WE
 
-
+The function predicts the next turn acoustic prosodic target using word embeddings 
